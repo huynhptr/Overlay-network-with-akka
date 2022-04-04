@@ -1,0 +1,10 @@
+.git
+.bloop/
+./vscode
+./target
+./analysis
+./images
+./project
+*.yaml
+*.txt
+*.md

@@ -1,0 +1,20 @@
+Hello group 7,
+
+Your submission covers succinctly the workings of chord. I particularly liked how your group varied the read load on the system
+by varying the no. of reads per minute. A minor area of improvement could be randomizing these parameters altogether using a third-party
+statistical package.
+
+Your grade for HW3 is 16%.
+
+Comments:
++3% for the usage of typed Behaviors model for Akka actors.
++3% for a documenting your implementation and execution steps.
+
+---
+
+Your grade for the project is 17.5%.
+
+-2%: For no evidence of deployment on an AWS EC2 instance.
+-0.5%: I would have liked unit tests which simulate message passing between actors either synchronously or asynchronously.
+
+Abhijeet

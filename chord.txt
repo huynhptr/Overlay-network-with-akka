@@ -1,0 +1,333 @@
+// == TERMINOLOGY AND CONCEPTS ==
+/*
+Consistent Hashing
+	Assign each node an m bit identifier using a hashing function
+		node identifier chosen by hashing IP address
+		key identifier is produced by hashing key
+			key/key identifier both referred to as key
+
+	Key k is assigned to first node whose identifier is equal to or follows (>= ?) the identifier of k in the identifier (hash range) space
+		This is called the successor node of k
+
+Finger Table
+	m is the number of bits in the key/node identifiers
+	Each node n maintains a routing (finger) table with at most m entries
+	The ith entry in the table at node n contains the identity of the first node s that succeeds n by at least 2^{i-1} on the identifier circle
+		s = successor(n 2^{i - 1})
+		so i = 1, just direct successor
+
+	Finger Table Entries: finger[k]
+		.start = (n + 2^{k - 1}) mod 2^m
+			1 <= k <= m
+			n here must be a hash or something
+			m here is maximum number of bits in hash?
+			2^m would just be max hash value?
+				8 bit value has max of 255
+				2^8 = 256
+
+		.interval = [finger[k].start, finger[k+1].start) // Interval Notation: [x, y] from x to y including x and y | (x, y) from x to y excluding x and y
+			Maybe this could just be a helper function or something
+		.node = first node >= n.finger[k].start
+		
+		finger[i] = tuple(start, node, ref)
+			ref is ActorRef of the node
+Nodes
+	Each Node has a finger table
+	Each Node has a hash (id)
+		Also needs a key?
+	Each Node has a predecessor pointer
+	Each Node has a successor
+		finger[1].node
+		This likely does need to be a actual value
+	Each Node has an active flag? If it has joined the network and can process messages?
+
+*/
+
+// == FIND SUCCESSOR =================
+// id here means the key identifier? Likely also valid for other nodes
+// ask node n to find id's successor
+// == AKKA
+// n would recieve a message from x with hash id
+// n would find the predecessor of id and send a message to x with its successor
+n.find_successor(id) {
+	x = find_predecessor(id)
+	return x.successor
+}
+
+
+// ask node n to find id's predecessor
+// == AKKA
+// node n would receieve a message from node w/ hash id to find predecessor
+// check if id is between n and n.successor, if not then find the predecessor from the closest preceding node
+// count down (farthest first) in the finger table, if the ft entry is between n and id
+// if so then query that node about the predecessor of id
+n.find_predecessor(id) {
+	x = n
+	while (id not in (x, x.successor])
+		for i = m to 1 { // Count down from m to 1
+			// If the node at this ft entry is between the node supplying the ft and the search id
+			if (finger[i].node in (x, id)) // Interval notation here () non inclusive
+				// then the closest preceding finger is the node at that ft entry
+				x = finger[i].node
+				break
+		}
+	return x
+}
+// == AKKA PSUEDOCODE
+// This message is sent to determine the predecessor and successor of id
+// replyTo is original sender, id is search id, i for index into ft, -1 if n/a
+// message findPredSucc(replyTo: ActorRef[NodeCommand], id: Array[Byte], i:Int)
+// 	On reception action should look like
+/*	
+	case findPredSucc(replyTo: ActorRef[NodeCommand], id: Array[Byte], i: Int){
+		val m = id.size * 8
+		// If id is not between hash and successor hash
+		if (id <= hash || id > fingerTable(0)._2) {
+			for (i <- m - 1 to 0 by -1) {
+				if (fingerTable(i)._2 > hash && fingerTable(i)._2 < id) {
+					fingerTable(i)._3 ! findPredSucc(replyTo, id, i)
+					break
+				}
+			}
+		} 
+		else {
+			// Predecessor is me, send myself and my successor
+			replyTo ! foundPredSucc((hash, context.self), (fingerTable(0)._2, fingerTable(0)._3), i)
+		}
+		Behaviors.same
+	}
+*/
+// This message is the result of a query for predecessor and successor
+// pred, succ are predecessor and successor ft entries
+// This is sent to the original sender from findPredSucc, replyTo
+// message foundPredSucc(newPred: (node: Array[Byte], ref: ActorRef[NodeCommand]), newSucc: (node: Array[Byte], ref: ActorRef[NodeCommand]), i: Int)
+// On reception action should look like
+/*
+	case foundPredSucc(newPred: (node: Array[Byte], ref: ActorRef[NodeCommand]), newSucc: (node: Array[Byte], ref: ActorRef[NodeCommand]), i: Int) {
+		if (i == -1) { 	// Means this node was looking for its predecessor, set predecessor to pred
+			val isActive = fingerTable.forall(e => e._2 != null && e._3 != null)
+			node(key, hash, fingerTable, newPred, isActive)
+		}
+		else {			// Means this node was trying to update its finger table
+			val ftUpdate = fingerTable.patch(i, Seq((fingerTable(i)._1, newSucc._1, newSucc._2)), 1)
+			val isActive = fingerTable.forall(e => e._2 != null && e._3 != null) && pred != null
+			if (isActive) {
+				updateOthers()
+			}
+			node(key, hash, ftUpdate, pred, isActive)
+		}
+	}
+*/
+
+// return closest preceding finger id
+// == AKKA
+// node n would recieve a message from node w/ hash id to find closest preceding finger
+// n searches through its finger table from top to bottom (?) until it finds a node between n and id
+// return this node, or itself
+/* NOW JUST IN THE FIND PREDECESSOR FUNCTION
+n.closest_preceding_finger(id) {
+	for i = m to 1 { // Count down from m to 1
+		// If the node at this ft entry is between the node supplying the ft and the search id
+		if (finger[i].node in (n, id)) // Interval notation here () non inclusive
+			// then the closest preceding finger is the node at that ft entry
+			return finger[i].node
+	}
+	// Otherwise it is the node itself
+	return n
+}
+*/
+// == JOIN NETWORK ===================
+// node n joins the network
+// x is an arbitrary node in the network
+// == AKKA
+// if x is null, initialize your own finger table
+// else send a message to x asking to initialize your finger table
+// update others when you join
+n.join(x) {
+	if (x is not null) {
+		init_finger_table(x)
+		update_others()
+		// move keys in (predecessor, n] from successor (?)
+	}
+	else { // n is only node in network
+		for i = 1 to m
+			finger[i].node = n
+		predecessor = n
+	}
+}
+
+// initialize finger table of local node
+// x is an arbitrary node already in the network
+// == AKKA
+// n sends a message to x asking it to initialize its finger table
+// x finds the first entry, which is the successor to n
+// update the predecessor pointers for n and successor
+// update rest of finger table
+// x sends message to n with initialized finger table 
+n.init_finger_table(x) {
+	// Find immediate successor
+	finger[1].node = x.find_successor(finger[1].start)
+	// Set predecessor to successor's predecessor
+	n.predecessor = n.successor.predecessor
+	// Set successor's predecessor to n
+	successor.predecessor = n
+	for (i = 1 to m - 1) {
+		// If the next finger entry start is between n and the current finger node
+		if(finger[i + 1].start in [n, finger[i].node)) // Note that [x, y) is a range
+			// Set next finger node to current node
+			finger[i + 1].node = finger[i].node
+		else
+			// Set next finger node to successor of next finger entry start
+			finger[i + 1].node = x.find_successor(finger[i + 1].start)
+}
+// == AKKA PSUEDOCODE
+// node x wants to join the network, initializes finger table with correct start values, null node/ref values
+// for each index into the finger table, ask an existing node to find the successor to the start
+// Upon recieving the filled finger table entry for an index, place it into the finger table
+// If the finger table still has null values, active is still false
+// Otherwise active is true, the finger table has been initialized
+// When ExistingNodeRef(ref: ActorRef[NodeCommand]) is recieved, action should look like
+/*
+	case ExistingNodeRef(ref) {
+		// m is the number of bits in the hash, or bytes * 8
+        val m: Int = hash.size * 8
+		if (ref != null) {
+			// Initialize finger table with correct start values and null node and ref fields
+			val ft:IndexedSeq[(Array[Byte], Array[Byte], ActorRef[NodeCommand])] = (0 until m).map[(Array[Byte], Array[Byte], ActorRef[NodeCommand])](i => Tuple3((BigInt(hash) + BigInt(2).pow(i)).mod(BigInt(2).pow(m)).toByteArray, null, null))
+			// Find this node's predecessor
+			ref ! findPredSucc(context.self, hash, -1)
+			// Fill this node's finger table
+			for (i <- 0 until m) {
+				ref ! findPredSucc(context.self, ft[i]._1, i)
+			}
+			// Set this node with the empty finger table, no predecessor, and inactive
+			node(key, hash, ft, null, false)
+		} else {
+            // Initialize all finger table entries to self
+            val ft:IndexedSeq[(Array[Byte], Array[Byte], ActorRef[NodeCommand])] = (0 until m).map[(Array[Byte], Array[Byte], ActorRef[NodeCommand])](i => Tuple3((BigInt(hash) + BigInt(2).pow(i)).mod(BigInt(2).pow(m)).toByteArray, hash, context.self))
+            // Set this node with a full finger table, predecessor as itself, and active
+            node(key, hash, ft, (hash, context.self), true)
+		}
+	}
+*/
+
+
+// update all nodes whose finger table should refer to n
+// == AKKA
+// for each entry in the finger table
+// find last node p whose ith finger might be n
+// send message to p telling it to update finger table index i with n
+n.update_others() {
+	for i = 1 to m {
+		// find last node p whose ith finger might be n
+		p = find_predecessor(n - 2^{i - 1})
+		p.update_finger_table(n, i)
+	}
+}
+
+// if s is the ith finger of n, update n's finger table with s
+// == AKKA
+// n recieves message from s to update ith entry of finger table to s
+// if s is in the range of n to the ith finger table node
+// update ith entry in finger table and tell n's predecessor to update its finger table with s, i
+n.update_finger_table(s, i) {
+	if (s in [n, finger[i].node)) {
+		finger[i].node = s
+		p = predecessor		// Get first node preceding n
+		p.update_finger_table(s, i)
+	}
+}
+// == AKKA PSUEDOCODE
+// n updates all nodes whose finger table maybe should refer to n
+// go backward around the circle, find predecessors and tell them about n, and index i
+// find the predecessor of that value, tell it to update itself
+// Following message is logic of both update_finger_table and update_others
+// message UpdateIfPredecessor(id: Array[Byte], node: Array[Byte], ref: ActorRef[NodeCommand], index: Int)
+// On reception action should look like
+/*
+	case UpdateIfPredecessor(id: Array[Byte], node: Array[Byte], ref: ActorRef[NodeCommand], index: Int) {
+		val m = id.size * 8
+		// If I'm not predecessor
+		if (id <= hash || id > fingerTable(0)._2) {
+			for (i <- m - 1 to 0 by -1) {
+				if (fingerTable(i)._2 > hash && fingerTable(i)._2 < id)
+					fingerTable(i)._3 ! UpdateIfPredecessor(id, node, ref, index)
+					Behaviors.same
+			}
+		}
+		// If I am predecessor of node, update my finger table
+		if (node >= hash && node < fingerTable(index)._2) {
+			val newFt = fingerTable.patch(i, Seq(fingerTable(index)._1, node, ref), 1)
+			pred._2 ! UpdateIfPredecessor(hash, node, ref, index)
+			node(key, hash, newFt, pred, active)
+		}
+		else
+			Behaviors.same
+	}
+*/
+
+// periodically verify n's immediate successor
+// and tell the successor about n
+// When node n runs stabilize(), it asks n's successor for its predecessor p
+// Decide whether p should be n's successor instead
+// == AKKA
+// x is n's successor's predecessor
+// if x is between n and n's successor then n's successor is x
+// otherwise n should notify it's successor of n
+n.stabilize() {
+	x = n.successor.predecessor
+	if (x in (n, n.successor))
+		n.successor = x
+	n.successor.notify(n)
+}
+
+// x thinks it might be our predecessor
+n.notify(x) {
+	if (n.predecessor == null || x in (n.predecessor, n))
+		n.predecessor = x
+}
+// == AKKA
+// Periodically send a message to my succcessor, stabilize
+// message Stabilize(node: Array[Byte], ref: ActorRef)
+// Check if inInterval(pred._1, node, hash, false, false), |x in (n, n.successor)|
+// If so, tell node that its successor is pred
+	// Send UpdateFingerTable? FoundPredSucc?
+// Then notify node's successor [pred if check is true, recipient if false], with node
+// When notified with node, check if there is no predecessor, or if inInterval(node, pred._2, hash, false, false)
+// If so, recipient's predecessor is node
+// == AKKA PSUEDOCODE
+/*
+	// Sender wants to know whether Recipient is its successor
+	case Stabilize(senderHash: Array[Byte], senderRef: Array[Byte]) {
+		// If my predecessor is between the sender and me, then my predecessor is the sender's successor
+		// Tell my predecessor that the sender may be its predecessor
+		if (hashVal(pred._1), hashVal(senderHash), hashVal(hash), false, false) {
+			senderRef ! FoundPredSucc(null, pred, 0)
+			pred._2 ! Notify(senderHash, senderRef)
+		}
+		else {
+			context.self ! Notify(senderHash, senderRef)
+		}
+		Behaviors.same
+	}
+
+	// Sender thinks it might be Recipient's Predecessor
+	case Notify(senderHash: Array[Byte], senderRef: Array[Byte]) {
+		// If I have no predecessor, or the sender is between my predecessor and me, then its my predecessor
+		if (pred == null || inInterval(hashVal(senderHash), hashVal(pred._1), hashVal(hash), false, false))
+		{
+			// Update my predecessor
+			context.self ! FoundPredSucc((senderHash, senderRef), null, -1)
+		}
+		Behaviors.same
+	}
+*/
+
+// Periodically refresh finger table entries
+n.fix_fingers() {
+	i = randomInt(1, m)
+	finger[i].node = find_successor(finger[i].start)
+}
+// == AKKA
+// Schedule a function that every once in a while sends out FindPredSucc(ref, fingerTable(i)._1, i) where i
+// is a random number from 0 to m - 1

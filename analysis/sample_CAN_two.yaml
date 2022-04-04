@@ -1,0 +1,2798 @@
+Configuration:
+  Nodes: 5
+  Reads: 250000
+  Writes: 250000
+  Read-to-Writes: 0.5 
+Write-Request:
+    Movie: Jane Eyre (1944)
+    Time: 2ms
+  Read-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 3ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 3ms
+  Write-Request:
+    Movie: National Velvet (1944)
+    Time: 3ms
+  Write-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 3ms
+  Write-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 3ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 3ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 4ms
+  Write-Request:
+    Movie: Three Comrades (1938)
+    Time: 4ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 4ms
+  Read-Request:
+    Movie: Borderland (2007)
+    Time: 4ms
+  Write-Request:
+    Movie: Road to Utopia (1945)
+    Time: 4ms
+  Read-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 4ms
+  Write-Request:
+    Movie: White Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)
+    Time: 6ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 4ms
+  Read-Request:
+    Movie: A Star Is Born (1937)
+    Time: 5ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 6ms
+  Write-Request:
+    Movie: The Endless Summer (1966)
+    Time: 5ms
+  Write-Request:
+    Movie: Toy Story 2 (1999)
+    Time: 6ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 5ms
+  Write-Request:
+    Movie: Jane Eyre (1944)
+    Time: 6ms
+  Read-Request:
+    Movie: Henry V (1989)
+    Time: 6ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 6ms
+  Read-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 6ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 6ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 5ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 6ms
+  Read-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 7ms
+  Read-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 7ms
+  Read-Request:
+    Movie: Holiday Inn (1942)
+    Time: 7ms
+  Read-Request:
+    Movie: Road to Utopia (1945)
+    Time: 7ms
+  Write-Request:
+    Movie: Girlfriends (1978)
+    Time: 7ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 6ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 7ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 7ms
+  Write-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 8ms
+  Read-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 8ms
+  Read-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 7ms
+  Write-Request:
+    Movie: A Star Is Born (1937)
+    Time: 9ms
+  Read-Request:
+    Movie: Law of Desire (1987)
+    Time: 7ms
+  Read-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 9ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 8ms
+  Read-Request:
+    Movie: A Star Is Born (1937)
+    Time: 9ms
+  Write-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 7ms
+  Write-Request:
+    Movie: Jane Eyre (1944)
+    Time: 7ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 8ms
+  Write-Request:
+    Movie: Girlfriends (1978)
+    Time: 8ms
+  Read-Request:
+    Movie: Rear Window (1954)
+    Time: 9ms
+  Read-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 8ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 8ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 9ms
+  Read-Request:
+    Movie: King Of The Ants (2003)
+    Time: 10ms
+  Write-Request:
+    Movie: A Star Is Born (1937)
+    Time: 11ms
+  Read-Request:
+    Movie: Compulsion (1959)
+    Time: 9ms
+  Write-Request:
+    Movie: Heidi (1937)
+    Time: 10ms
+  Write-Request:
+    Movie: Grand Prix (1966)
+    Time: 11ms
+  Read-Request:
+    Movie: Girlfriends (1978)
+    Time: 9ms
+  Write-Request:
+    Movie: Toy Story 2 (1999)
+    Time: 11ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 9ms
+  Read-Request:
+    Movie: Girlfriends (1978)
+    Time: 11ms
+  Read-Request:
+    Movie: The Disenchanted (1990)
+    Time: 12ms
+  Write-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 10ms
+  Write-Request:
+    Movie: Stop Making Sense (1984)
+    Time: 12ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 11ms
+  Read-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 12ms
+  Read-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 12ms
+  Write-Request:
+    Movie: Captain Horatio Hornblower (1951)
+    Time: 13ms
+  Write-Request:
+    Movie: Compulsion (1959)
+    Time: 12ms
+  Read-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 13ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 12ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 11ms
+  Write-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 13ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 12ms
+  Read-Request:
+    Movie: Letter From an Unknown Woman (1948)
+    Time: 13ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 13ms
+  Read-Request:
+    Movie: Mind Game (2004)
+    Time: 14ms
+  Write-Request:
+    Movie: Summer Stock (1950)
+    Time: 13ms
+  Write-Request:
+    Movie: Toy Story (1995)
+    Time: 13ms
+  Read-Request:
+    Movie: Letter From an Unknown Woman (1948)
+    Time: 14ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 13ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 13ms
+  Write-Request:
+    Movie: Girlfriends (1978)
+    Time: 13ms
+  Read-Request:
+    Movie: Insiang (1976)
+    Time: 14ms
+  Read-Request:
+    Movie: Citizen Kane (1941)
+    Time: 13ms
+  Read-Request:
+    Movie: Toy Story (1995)
+    Time: 15ms
+  Write-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 14ms
+  Read-Request:
+    Movie: Girlfriends (1978)
+    Time: 13ms
+  Read-Request:
+    Movie: Fanaa (2006)
+    Time: 14ms
+  Read-Request:
+    Movie: Mad Love (1935)
+    Time: 16ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 14ms
+  Write-Request:
+    Movie: Shadow of a Doubt (1943)
+    Time: 16ms
+  Read-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 15ms
+  Read-Request:
+    Movie: Holiday Inn (1942)
+    Time: 15ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 14ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 16ms
+  Write-Request:
+    Movie: National Velvet (1944)
+    Time: 15ms
+  Read-Request:
+    Movie: Desk Set (1957)
+    Time: 16ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 17ms
+  Write-Request:
+    Movie: Three Comrades (1938)
+    Time: 19ms
+  Read-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 18ms
+  Read-Request:
+    Movie: Road to Utopia (1945)
+    Time: 19ms
+  Write-Request:
+    Movie: Shadow of a Doubt (1943)
+    Time: 19ms
+  Read-Request:
+    Movie: Things to Do (2006)
+    Time: 19ms
+  Read-Request:
+    Movie: Wichita (1955)
+    Time: 19ms
+  Write-Request:
+    Movie: Local Hero (1983)
+    Time: 18ms
+  Write-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 20ms
+  Write-Request:
+    Movie: Toy Story (1995)
+    Time: 20ms
+  Write-Request:
+    Movie: The Tale of Zatoichi (1962)
+    Time: 20ms
+  Read-Request:
+    Movie: Kes (1969)
+    Time: 20ms
+  Read-Request:
+    Movie: Three Comrades (1938)
+    Time: 20ms
+  Write-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 20ms
+  Read-Request:
+    Movie: Citizen Kane (1941)
+    Time: 18ms
+  Write-Request:
+    Movie: Insiang (1976)
+    Time: 20ms
+  Write-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 21ms
+  Read-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 20ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 19ms
+  Read-Request:
+    Movie: Mischief Night (2014)
+    Time: 20ms
+  Write-Request:
+    Movie: Twist of Faith (2004)
+    Time: 20ms
+  Write-Request:
+    Movie: Things to Do (2006)
+    Time: 20ms
+  Write-Request:
+    Movie: Borderland (2007)
+    Time: 21ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 20ms
+  Read-Request:
+    Movie: Lust for Life (1956)
+    Time: 21ms
+  Write-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 20ms
+  Read-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 21ms
+  Read-Request:
+    Movie: Black Narcissus (1947)
+    Time: 22ms
+  Read-Request:
+    Movie: Fanaa (2006)
+    Time: 22ms
+  Read-Request:
+    Movie: Fanaa (2006)
+    Time: 22ms
+  Read-Request:
+    Movie: Girlfriends (1978)
+    Time: 22ms
+  Read-Request:
+    Movie: Black Narcissus (1947)
+    Time: 23ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 22ms
+  Read-Request:
+    Movie: Fort Apache (1948)
+    Time: 23ms
+  Read-Request:
+    Movie: Kings Row (1942)
+    Time: 24ms
+  Write-Request:
+    Movie: Black Narcissus (1947)
+    Time: 24ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 23ms
+  Read-Request:
+    Movie: Law of Desire (1987)
+    Time: 21ms
+  Write-Request:
+    Movie: Fanaa (2006)
+    Time: 24ms
+  Read-Request:
+    Movie: Twist of Faith (2004)
+    Time: 24ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 23ms
+  Write-Request:
+    Movie: National Velvet (1944)
+    Time: 24ms
+  Write-Request:
+    Movie: Mind Game (2004)
+    Time: 24ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 22ms
+  Write-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 24ms
+  Read-Request:
+    Movie: 36 quai des orfevres (2005)
+    Time: 25ms
+  Write-Request:
+    Movie: Whisky (2004)
+    Time: 25ms
+  Write-Request:
+    Movie: The Odd Couple (1968)
+    Time: 25ms
+  Write-Request:
+    Movie: Longford (2007)
+    Time: 25ms
+  Write-Request:
+    Movie: Things to Do (2006)
+    Time: 25ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 26ms
+  Read-Request:
+    Movie: Whisky (2004)
+    Time: 26ms
+  Write-Request:
+    Movie: The Bridge (Die Brücke) (1959)
+    Time: 26ms
+  Write-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 26ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 24ms
+  Read-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 26ms
+  Write-Request:
+    Movie: Fort Apache (1948)
+    Time: 26ms
+  Read-Request:
+    Movie: Mad Love (1935)
+    Time: 27ms
+  Write-Request:
+    Movie: The Disenchanted (1990)
+    Time: 27ms
+  Read-Request:
+    Movie: Black Narcissus (1947)
+    Time: 27ms
+  Write-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 27ms
+  Write-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 25ms
+  Write-Request:
+    Movie: Mischief Night (2014)
+    Time: 27ms
+  Read-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 28ms
+  Read-Request:
+    Movie: Kes (1969)
+    Time: 26ms
+  Write-Request:
+    Movie: Grand Prix (1966)
+    Time: 28ms
+  Write-Request:
+    Movie: Citizen Kane (1941)
+    Time: 25ms
+  Read-Request:
+    Movie: Tom Thumb (1958)
+    Time: 28ms
+  Write-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 29ms
+  Read-Request:
+    Movie: Longford (2007)
+    Time: 28ms
+  Write-Request:
+    Movie: Compulsion (1959)
+    Time: 25ms
+  Write-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 29ms
+  Write-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 30ms
+  Write-Request:
+    Movie: Things to Do (2006)
+    Time: 30ms
+  Read-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 30ms
+  Write-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 30ms
+  Write-Request:
+    Movie: Kes (1969)
+    Time: 29ms
+  Write-Request:
+    Movie: That's Entertainment (1973)
+    Time: 30ms
+  Read-Request:
+    Movie: Kes (1969)
+    Time: 29ms
+  Write-Request:
+    Movie: Summer Stock (1950)
+    Time: 30ms
+  Write-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 30ms
+  Write-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 31ms
+  Write-Request:
+    Movie: Toy Story 2 (1999)
+    Time: 31ms
+  Write-Request:
+    Movie: Henry V (1989)
+    Time: 31ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 26ms
+  Write-Request:
+    Movie: Stop Making Sense (1984)
+    Time: 30ms
+  Write-Request:
+    Movie: Citizen Kane (1941)
+    Time: 28ms
+  Read-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 28ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 31ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 31ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 28ms
+  Write-Request:
+    Movie: Toy Story (1995)
+    Time: 32ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 31ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 28ms
+  Write-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 31ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 30ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 32ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 33ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 32ms
+  Write-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 30ms
+  Write-Request:
+    Movie: Thin (2006)
+    Time: 32ms
+  Write-Request:
+    Movie: Rear Window (1954)
+    Time: 33ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 30ms
+  Write-Request:
+    Movie: The Tale of Zatoichi Continues (Zoku Zatôichi monogatari) (1962)
+    Time: 34ms
+  Write-Request:
+    Movie: Road to Utopia (1945)
+    Time: 34ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 30ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 30ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 34ms
+  Read-Request:
+    Movie: Grand Prix (1966)
+    Time: 35ms
+  Read-Request:
+    Movie: That's Entertainment (1973)
+    Time: 35ms
+  Write-Request:
+    Movie: Compulsion (1959)
+    Time: 32ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 34ms
+  Read-Request:
+    Movie: Longford (2007)
+    Time: 35ms
+  Read-Request:
+    Movie: All Quiet on the Western Front (1979)
+    Time: 36ms
+  Write-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 33ms
+  Write-Request:
+    Movie: Fort Apache (1948)
+    Time: 36ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 33ms
+  Write-Request:
+    Movie: Mind Game (2004)
+    Time: 36ms
+  Read-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 36ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 33ms
+  Write-Request:
+    Movie: Heidi (1937)
+    Time: 36ms
+  Read-Request:
+    Movie: Mischief Night (2014)
+    Time: 37ms
+  Write-Request:
+    Movie: Mad Love (1935)
+    Time: 37ms
+  Read-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 34ms
+  Write-Request:
+    Movie: Many Adventures of Winnie the Pooh (1977)
+    Time: 37ms
+  Read-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 37ms
+  Write-Request:
+    Movie: That's Entertainment (1973)
+    Time: 38ms
+  Read-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 37ms
+  Read-Request:
+    Movie: The Disenchanted (1990)
+    Time: 38ms
+  Write-Request:
+    Movie: Le samouraï (1967)
+    Time: 37ms
+  Write-Request:
+    Movie: Heidi (1937)
+    Time: 37ms
+  Read-Request:
+    Movie: King Creole (1958)
+    Time: 39ms
+  Write-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 38ms
+  Read-Request:
+    Movie: Street Fight (2005)
+    Time: 35ms
+  Write-Request:
+    Movie: 36 quai des orfevres (2005)
+    Time: 38ms
+  Read-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 39ms
+  Read-Request:
+    Movie: Kes (1969)
+    Time: 35ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 38ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 35ms
+  Read-Request:
+    Movie: Lust for Life (1956)
+    Time: 39ms
+  Read-Request:
+    Movie: San Francisco (1936)
+    Time: 39ms
+  Read-Request:
+    Movie: Stop Making Sense (1984)
+    Time: 40ms
+  Write-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 39ms
+  Read-Request:
+    Movie: National Velvet (1944)
+    Time: 39ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 36ms
+  Read-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 39ms
+  Read-Request:
+    Movie: Local Hero (1983)
+    Time: 40ms
+  Write-Request:
+    Movie: Black Narcissus (1947)
+    Time: 40ms
+  Read-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 40ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 40ms
+  Read-Request:
+    Movie: Desk Set (1957)
+    Time: 40ms
+  Write-Request:
+    Movie: Local Hero (1983)
+    Time: 40ms
+  Write-Request:
+    Movie: Le samouraï (1967)
+    Time: 41ms
+  Read-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 41ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 40ms
+  Read-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 41ms
+  Read-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 41ms
+  Write-Request:
+    Movie: Henry V (1989)
+    Time: 41ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 40ms
+  Write-Request:
+    Movie: Letter From an Unknown Woman (1948)
+    Time: 41ms
+  Read-Request:
+    Movie: After the Thin Man (1936)
+    Time: 42ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 39ms
+  Read-Request:
+    Movie: Toy Story 2 (1999)
+    Time: 43ms
+  Write-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 43ms
+  Read-Request:
+    Movie: Citizen Kane (1941)
+    Time: 40ms
+  Read-Request:
+    Movie: Road to Utopia (1945)
+    Time: 43ms
+  Read-Request:
+    Movie: Fort Apache (1948)
+    Time: 43ms
+  Read-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 43ms
+  Read-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 44ms
+  Read-Request:
+    Movie: White Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)
+    Time: 44ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 44ms
+  Read-Request:
+    Movie: Girlfriends (1978)
+    Time: 41ms
+  Write-Request:
+    Movie: San Francisco (1936)
+    Time: 44ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 44ms
+  Read-Request:
+    Movie: The Band Wagon (1953)
+    Time: 44ms
+  Read-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 44ms
+  Write-Request:
+    Movie: The Tale of Zatoichi (1962)
+    Time: 45ms
+  Write-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 44ms
+  Read-Request:
+    Movie: Jane Eyre (1944)
+    Time: 46ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 45ms
+  Read-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 43ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 44ms
+  Read-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 46ms
+  Write-Request:
+    Movie: Darby O'Gill and the Little People (1959)
+    Time: 47ms
+  Write-Request:
+    Movie: Toy Story (1995)
+    Time: 48ms
+  Write-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 48ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 45ms
+  Read-Request:
+    Movie: The Odd Couple (1968)
+    Time: 47ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 48ms
+  Write-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 48ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 45ms
+  Write-Request:
+    Movie: Kes (1969)
+    Time: 45ms
+  Write-Request:
+    Movie: The Color of Friendship (2000)
+    Time: 47ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 46ms
+  Read-Request:
+    Movie: Mad Love (1935)
+    Time: 49ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 46ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 49ms
+  Read-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 48ms
+  Write-Request:
+    Movie: Twist of Faith (2004)
+    Time: 49ms
+  Read-Request:
+    Movie: Kings Row (1942)
+    Time: 48ms
+  Read-Request:
+    Movie: The Yearling (1946)
+    Time: 49ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 47ms
+  Read-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 49ms
+  Write-Request:
+    Movie: The Endless Summer (1966)
+    Time: 50ms
+  Write-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 50ms
+  Read-Request:
+    Movie: San Francisco (1936)
+    Time: 49ms
+  Read-Request:
+    Movie: Toy Story (1995)
+    Time: 49ms
+  Write-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 50ms
+  Read-Request:
+    Movie: Compulsion (1959)
+    Time: 48ms
+  Write-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 50ms
+  Write-Request:
+    Movie: Three Comrades (1938)
+    Time: 50ms
+  Write-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 47ms
+  Write-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 51ms
+  Read-Request:
+    Movie: Local Hero (1983)
+    Time: 50ms
+  Read-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 49ms
+  Read-Request:
+    Movie: White Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)
+    Time: 51ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 48ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 51ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 49ms
+  Read-Request:
+    Movie: Le samouraï (1967)
+    Time: 52ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 50ms
+  Write-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 49ms
+  Write-Request:
+    Movie: Mischief Night (2014)
+    Time: 52ms
+  Write-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 50ms
+  Write-Request:
+    Movie: The Yearling (1946)
+    Time: 52ms
+  Read-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 53ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 53ms
+  Write-Request:
+    Movie: Many Adventures of Winnie the Pooh (1977)
+    Time: 53ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 50ms
+  Read-Request:
+    Movie: Law of Desire (1987)
+    Time: 50ms
+  Read-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 54ms
+  Read-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 54ms
+  Write-Request:
+    Movie: The Disenchanted (1990)
+    Time: 54ms
+  Read-Request:
+    Movie: That's Entertainment (1973)
+    Time: 54ms
+  Write-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 54ms
+  Read-Request:
+    Movie: Law of Desire (1987)
+    Time: 51ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 52ms
+  Read-Request:
+    Movie: Rear Window (1954)
+    Time: 55ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 52ms
+  Write-Request:
+    Movie: That's Entertainment (1973)
+    Time: 55ms
+  Read-Request:
+    Movie: Shadow of a Doubt (1943)
+    Time: 55ms
+  Write-Request:
+    Movie: Black Narcissus (1947)
+    Time: 55ms
+  Write-Request:
+    Movie: Things to Do (2006)
+    Time: 55ms
+  Write-Request:
+    Movie: King Of The Ants (2003)
+    Time: 55ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 52ms
+  Read-Request:
+    Movie: King Creole (1958)
+    Time: 56ms
+  Write-Request:
+    Movie: Le samouraï (1967)
+    Time: 56ms
+  Read-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 56ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 53ms
+  Write-Request:
+    Movie: Mischief Night (2014)
+    Time: 56ms
+  Read-Request:
+    Movie: Mischief Night (2014)
+    Time: 56ms
+  Read-Request:
+    Movie: Local Hero (1983)
+    Time: 57ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 54ms
+  Read-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 57ms
+  Write-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 57ms
+  Read-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 54ms
+  Read-Request:
+    Movie: Kings Row (1942)
+    Time: 57ms
+  Read-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 58ms
+  Read-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 58ms
+  Write-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 58ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 55ms
+  Write-Request:
+    Movie: Death of a Cyclist (Muerte de un ciclista) (1958)
+    Time: 58ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 55ms
+  Write-Request:
+    Movie: Many Adventures of Winnie the Pooh (1977)
+    Time: 58ms
+  Write-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 58ms
+  Read-Request:
+    Movie: Girlfriends (1978)
+    Time: 56ms
+  Write-Request:
+    Movie: The Tale of Zatoichi (1962)
+    Time: 59ms
+  Write-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 59ms
+  Read-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 59ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 56ms
+  Write-Request:
+    Movie: The Yearling (1946)
+    Time: 59ms
+  Write-Request:
+    Movie: A Star Is Born (1937)
+    Time: 60ms
+  Read-Request:
+    Movie: The Gang's All Here (1943)
+    Time: 60ms
+  Write-Request:
+    Movie: Fort Apache (1948)
+    Time: 60ms
+  Read-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 57ms
+  Read-Request:
+    Movie: Many Adventures of Winnie the Pooh (1977)
+    Time: 60ms
+  Write-Request:
+    Movie: Compulsion (1959)
+    Time: 57ms
+  Write-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 60ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 62ms
+  Write-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 61ms
+  Write-Request:
+    Movie: San Francisco (1936)
+    Time: 61ms
+  Read-Request:
+    Movie: Fort Apache (1948)
+    Time: 61ms
+  Read-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 63ms
+  Write-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 61ms
+  Write-Request:
+    Movie: Death of a Cyclist (Muerte de un ciclista) (1958)
+    Time: 61ms
+  Read-Request:
+    Movie: The Endless Summer (1966)
+    Time: 62ms
+  Read-Request:
+    Movie: Insiang (1976)
+    Time: 62ms
+  Read-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 62ms
+  Read-Request:
+    Movie: King Of The Ants (2003)
+    Time: 62ms
+  Write-Request:
+    Movie: Summer Stock (1950)
+    Time: 63ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 63ms
+  Read-Request:
+    Movie: Mischief Night (2014)
+    Time: 63ms
+  Read-Request:
+    Movie: San Francisco (1936)
+    Time: 63ms
+  Read-Request:
+    Movie: The Color of Friendship (2000)
+    Time: 63ms
+  Read-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 63ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 65ms
+  Read-Request:
+    Movie: Borderland (2007)
+    Time: 64ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 64ms
+  Read-Request:
+    Movie: The Tale of Zatoichi Continues (Zoku Zatôichi monogatari) (1962)
+    Time: 63ms
+  Write-Request:
+    Movie: Le samouraï (1967)
+    Time: 63ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 64ms
+  Read-Request:
+    Movie: Thin (2006)
+    Time: 64ms
+  Write-Request:
+    Movie: The Gang's All Here (1943)
+    Time: 64ms
+  Write-Request:
+    Movie: Letter From an Unknown Woman (1948)
+    Time: 63ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 64ms
+  Read-Request:
+    Movie: Grand Prix (1966)
+    Time: 64ms
+  Read-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 64ms
+  Read-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 64ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 65ms
+  Write-Request:
+    Movie: Black Narcissus (1947)
+    Time: 64ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 64ms
+  Read-Request:
+    Movie: Henry V (1989)
+    Time: 64ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 66ms
+  Write-Request:
+    Movie: Stop Making Sense (1984)
+    Time: 65ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 65ms
+  Write-Request:
+    Movie: Shadow of a Doubt (1943)
+    Time: 65ms
+  Read-Request:
+    Movie: After the Thin Man (1936)
+    Time: 65ms
+  Write-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 63ms
+  Read-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 63ms
+  Read-Request:
+    Movie: The Band Wagon (1953)
+    Time: 65ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 65ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 63ms
+  Read-Request:
+    Movie: A Star Is Born (1937)
+    Time: 66ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 67ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 67ms
+  Read-Request:
+    Movie: Old Yeller (1957)
+    Time: 66ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 67ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 66ms
+  Read-Request:
+    Movie: Street Fight (2005)
+    Time: 64ms
+  Read-Request:
+    Movie: Shadow of a Doubt (1943)
+    Time: 66ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 66ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 64ms
+  Write-Request:
+    Movie: Whisky (2004)
+    Time: 66ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 67ms
+  Read-Request:
+    Movie: Tom Thumb (1958)
+    Time: 67ms
+  Read-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 69ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 64ms
+  Write-Request:
+    Movie: Mad Love (1935)
+    Time: 67ms
+  Read-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 64ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 68ms
+  Write-Request:
+    Movie: Citizen Kane (1941)
+    Time: 68ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 67ms
+  Read-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 67ms
+  Write-Request:
+    Movie: Insiang (1976)
+    Time: 67ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 67ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 69ms
+  Read-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 68ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 68ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 68ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 69ms
+  Read-Request:
+    Movie: Old Yeller (1957)
+    Time: 68ms
+  Write-Request:
+    Movie: Citizen Kane (1941)
+    Time: 69ms
+  Write-Request:
+    Movie: The Endless Summer (1966)
+    Time: 68ms
+  Read-Request:
+    Movie: After the Thin Man (1936)
+    Time: 68ms
+  Read-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 68ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 68ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 69ms
+  Read-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 69ms
+  Write-Request:
+    Movie: Thin (2006)
+    Time: 69ms
+  Write-Request:
+    Movie: Girlfriends (1978)
+    Time: 69ms
+  Write-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 69ms
+  Write-Request:
+    Movie: Jane Eyre (1944)
+    Time: 68ms
+  Write-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 69ms
+  Write-Request:
+    Movie: A Star Is Born (1937)
+    Time: 69ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 68ms
+  Read-Request:
+    Movie: San Francisco (1936)
+    Time: 69ms
+  Read-Request:
+    Movie: Street Fight (2005)
+    Time: 69ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 70ms
+  Read-Request:
+    Movie: Old Yeller (1957)
+    Time: 70ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 70ms
+  Write-Request:
+    Movie: Speedy (1928)
+    Time: 70ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 70ms
+  Read-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 69ms
+  Write-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 70ms
+  Write-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 70ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 70ms
+  Write-Request:
+    Movie: Letter From an Unknown Woman (1948)
+    Time: 70ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 69ms
+  Write-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 71ms
+  Read-Request:
+    Movie: Longford (2007)
+    Time: 71ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 70ms
+  Write-Request:
+    Movie: After the Thin Man (1936)
+    Time: 71ms
+  Read-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 71ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 70ms
+  Read-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 71ms
+  Read-Request:
+    Movie: Fanaa (2006)
+    Time: 71ms
+  Read-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 72ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 71ms
+  Read-Request:
+    Movie: Insiang (1976)
+    Time: 72ms
+  Write-Request:
+    Movie: Thin (2006)
+    Time: 71ms
+  Write-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 72ms
+  Read-Request:
+    Movie: Grand Prix (1966)
+    Time: 72ms
+  Write-Request:
+    Movie: Longford (2007)
+    Time: 72ms
+  Read-Request:
+    Movie: Street Fight (2005)
+    Time: 71ms
+  Read-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 72ms
+  Write-Request:
+    Movie: Grand Prix (1966)
+    Time: 73ms
+  Read-Request:
+    Movie: Thin (2006)
+    Time: 73ms
+  Read-Request:
+    Movie: Street Fight (2005)
+    Time: 72ms
+  Write-Request:
+    Movie: Fort Apache (1948)
+    Time: 73ms
+  Read-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 73ms
+  Write-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 73ms
+  Read-Request:
+    Movie: Law of Desire (1987)
+    Time: 72ms
+  Write-Request:
+    Movie: Rear Window (1954)
+    Time: 73ms
+  Write-Request:
+    Movie: The Tale of Zatoichi (1962)
+    Time: 73ms
+  Read-Request:
+    Movie: National Velvet (1944)
+    Time: 74ms
+  Read-Request:
+    Movie: Captain Horatio Hornblower (1951)
+    Time: 74ms
+  Write-Request:
+    Movie: King Of The Ants (2003)
+    Time: 74ms
+  Write-Request:
+    Movie: San Francisco (1936)
+    Time: 74ms
+  Write-Request:
+    Movie: The Tale of Zatoichi Continues (Zoku Zatôichi monogatari) (1962)
+    Time: 74ms
+  Read-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 73ms
+  Read-Request:
+    Movie: King Creole (1958)
+    Time: 74ms
+  Write-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 75ms
+  Write-Request:
+    Movie: That's Entertainment (1973)
+    Time: 75ms
+  Read-Request:
+    Movie: The Tale of Zatoichi Continues (Zoku Zatôichi monogatari) (1962)
+    Time: 75ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 75ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 74ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 75ms
+  Write-Request:
+    Movie: Le samouraï (1967)
+    Time: 75ms
+  Write-Request:
+    Movie: The Bridge (Die Brücke) (1959)
+    Time: 75ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 75ms
+  Read-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 76ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 76ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 75ms
+  Read-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 75ms
+  Write-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 76ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 77ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 76ms
+  Read-Request:
+    Movie: Fort Apache (1948)
+    Time: 77ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 76ms
+  Read-Request:
+    Movie: Kings Row (1942)
+    Time: 77ms
+  Write-Request:
+    Movie: Heidi (1937)
+    Time: 76ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 76ms
+  Read-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 77ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 77ms
+  Read-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 78ms
+  Write-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 78ms
+  Write-Request:
+    Movie: Thin (2006)
+    Time: 76ms
+  Write-Request:
+    Movie: National Velvet (1944)
+    Time: 78ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 76ms
+  Read-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 78ms
+  Read-Request:
+    Movie: Jane Eyre (1944)
+    Time: 76ms
+  Write-Request:
+    Movie: Mind Game (2004)
+    Time: 79ms
+  Write-Request:
+    Movie: After the Thin Man (1936)
+    Time: 79ms
+  Write-Request:
+    Movie: 36 quai des orfevres (2005)
+    Time: 79ms
+  Read-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 77ms
+  Read-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 79ms
+  Read-Request:
+    Movie: Jane Eyre (1944)
+    Time: 77ms
+  Write-Request:
+    Movie: Ghosts of Abu Ghraib (2007)
+    Time: 79ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 77ms
+  Read-Request:
+    Movie: The Tale of Zatoichi Continues (Zoku Zatôichi monogatari) (1962)
+    Time: 79ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 80ms
+  Write-Request:
+    Movie: The Odd Couple (1968)
+    Time: 80ms
+  Read-Request:
+    Movie: A Star Is Born (1937)
+    Time: 80ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 78ms
+  Read-Request:
+    Movie: Rear Window (1954)
+    Time: 80ms
+  Read-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 80ms
+  Read-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 81ms
+  Read-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 80ms
+  Read-Request:
+    Movie: The Band Wagon (1953)
+    Time: 81ms
+  Read-Request:
+    Movie: Mad Love (1935)
+    Time: 81ms
+  Write-Request:
+    Movie: Jane Eyre (1944)
+    Time: 79ms
+  Read-Request:
+    Movie: That's Entertainment (1973)
+    Time: 81ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 79ms
+  Read-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 82ms
+  Read-Request:
+    Movie: Toy Story (1995)
+    Time: 82ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 82ms
+  Read-Request:
+    Movie: Whisky (2004)
+    Time: 82ms
+  Read-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 80ms
+  Read-Request:
+    Movie: Darby O'Gill and the Little People (1959)
+    Time: 82ms
+  Write-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 82ms
+  Write-Request:
+    Movie: Wichita (1955)
+    Time: 82ms
+  Read-Request:
+    Movie: Summer Stock (1950)
+    Time: 82ms
+  Write-Request:
+    Movie: The Color of Friendship (2000)
+    Time: 82ms
+  Read-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 83ms
+  Write-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 83ms
+  Write-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 83ms
+  Read-Request:
+    Movie: Thin (2006)
+    Time: 81ms
+  Read-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 81ms
+  Read-Request:
+    Movie: Longford (2007)
+    Time: 83ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 83ms
+  Read-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 84ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 82ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 82ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 82ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 82ms
+  Read-Request:
+    Movie: Wichita (1955)
+    Time: 84ms
+  Read-Request:
+    Movie: Thin (2006)
+    Time: 82ms
+  Read-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 82ms
+  Read-Request:
+    Movie: Darby O'Gill and the Little People (1959)
+    Time: 84ms
+  Read-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 85ms
+  Write-Request:
+    Movie: The Tale of Zatoichi (1962)
+    Time: 85ms
+  Read-Request:
+    Movie: Fanaa (2006)
+    Time: 85ms
+  Read-Request:
+    Movie: Heidi (1937)
+    Time: 83ms
+  Write-Request:
+    Movie: Heidi (1937)
+    Time: 83ms
+  Write-Request:
+    Movie: The Odd Couple (1968)
+    Time: 85ms
+  Write-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 85ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 84ms
+  Write-Request:
+    Movie: Summer Stock (1950)
+    Time: 86ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 84ms
+  Write-Request:
+    Movie: Whisky (2004)
+    Time: 86ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 86ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 86ms
+  Write-Request:
+    Movie: Longford (2007)
+    Time: 86ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 84ms
+  Write-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 86ms
+  Write-Request:
+    Movie: Death of a Cyclist (Muerte de un ciclista) (1958)
+    Time: 86ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 86ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 84ms
+  Read-Request:
+    Movie: Mischief Night (2014)
+    Time: 86ms
+  Read-Request:
+    Movie: Citizen Kane (1941)
+    Time: 85ms
+  Write-Request:
+    Movie: Mad Love (1935)
+    Time: 87ms
+  Write-Request:
+    Movie: The Gang's All Here (1943)
+    Time: 87ms
+  Write-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 87ms
+  Write-Request:
+    Movie: The Disenchanted (1990)
+    Time: 87ms
+  Read-Request:
+    Movie: Road to Utopia (1945)
+    Time: 87ms
+  Read-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 87ms
+  Read-Request:
+    Movie: The Gang's All Here (1943)
+    Time: 87ms
+  Read-Request:
+    Movie: Speedy (1928)
+    Time: 88ms
+  Read-Request:
+    Movie: National Velvet (1944)
+    Time: 88ms
+  Write-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 87ms
+  Write-Request:
+    Movie: Thin (2006)
+    Time: 86ms
+  Read-Request:
+    Movie: A Star Is Born (1937)
+    Time: 88ms
+  Write-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 87ms
+  Read-Request:
+    Movie: Ghosts of Abu Ghraib (2007)
+    Time: 88ms
+  Read-Request:
+    Movie: Bluebeard (1944)
+    Time: 87ms
+  Read-Request:
+    Movie: Grand Prix (1966)
+    Time: 88ms
+  Read-Request:
+    Movie: The Color of Friendship (2000)
+    Time: 89ms
+  Read-Request:
+    Movie: Old Yeller (1957)
+    Time: 89ms
+  Write-Request:
+    Movie: The Endless Summer (1966)
+    Time: 88ms
+  Read-Request:
+    Movie: The Disenchanted (1990)
+    Time: 89ms
+  Read-Request:
+    Movie: After the Thin Man (1936)
+    Time: 88ms
+  Read-Request:
+    Movie: Citizen Kane (1941)
+    Time: 87ms
+  Write-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 89ms
+  Read-Request:
+    Movie: Insiang (1976)
+    Time: 90ms
+  Write-Request:
+    Movie: Black Narcissus (1947)
+    Time: 89ms
+  Write-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 87ms
+  Write-Request:
+    Movie: Speedy (1928)
+    Time: 89ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 88ms
+  Read-Request:
+    Movie: Le samouraï (1967)
+    Time: 90ms
+  Write-Request:
+    Movie: The Disenchanted (1990)
+    Time: 91ms
+  Read-Request:
+    Movie: Ghosts of Abu Ghraib (2007)
+    Time: 91ms
+  Write-Request:
+    Movie: The Bridge (Die Brücke) (1959)
+    Time: 90ms
+  Write-Request:
+    Movie: Tom Thumb (1958)
+    Time: 90ms
+  Write-Request:
+    Movie: That's Entertainment (1973)
+    Time: 90ms
+  Write-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 92ms
+  Write-Request:
+    Movie: Fort Apache (1948)
+    Time: 91ms
+  Write-Request:
+    Movie: Henry V (1989)
+    Time: 91ms
+  Write-Request:
+    Movie: 36 quai des orfevres (2005)
+    Time: 91ms
+  Read-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 91ms
+  Write-Request:
+    Movie: King Creole (1958)
+    Time: 92ms
+  Write-Request:
+    Movie: Desk Set (1957)
+    Time: 92ms
+  Read-Request:
+    Movie: Law of Desire (1987)
+    Time: 92ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 92ms
+  Read-Request:
+    Movie: Twist of Faith (2004)
+    Time: 92ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 92ms
+  Read-Request:
+    Movie: Wichita (1955)
+    Time: 93ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 140ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 141ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 141ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 143ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 144ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 145ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 146ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 146ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 147ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 148ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 149ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 156ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 160ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 163ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 165ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 166ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 166ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 168ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 169ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 170ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 170ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 171ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 173ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 173ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 182ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 183ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 187ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 188ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 188ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 189ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 191ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 193ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 196ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 197ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 198ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 199ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 199ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 200ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 201ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 201ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 202ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 203ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 204ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 204ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 208ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 210ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 211ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 212ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 215ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 216ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 216ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 217ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 217ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 219ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 219ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 221ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 221ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 223ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 223ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 224ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 227ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 227ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 228ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 229ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 230ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 230ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 230ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 232ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 233ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 235ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 244ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 245ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 250ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 250ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 252ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 254ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 255ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 256ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 256ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 257ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 258ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 259ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 259ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 261ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 260ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 261ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 264ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 265ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 265ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 267ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 268ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 268ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 268ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 284ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 288ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 288ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 289ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 291ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 292ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 294ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 295ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 296ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 300ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 302ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 303ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 304ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 305ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 307ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 308ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 307ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 307ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 307ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 308ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 308ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 318ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 317ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 320ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 322ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 322ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 324ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 326ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 329ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 331ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 337ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 337ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 337ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 339ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 340ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 341ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 341ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 342ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 345ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 347ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 347ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 350ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 350ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 351ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 355ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 356ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 356ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 357ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 357ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 358ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 358ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 361ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 362ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 362ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 363ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 366ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 367ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 368ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 369ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 369ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 370ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 371ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 374ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 374ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 376ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 377ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 378ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 380ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 380ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 380ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 384ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 386ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 389ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 390ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 396ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 397ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 399ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 400ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 402ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 404ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 404ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 405ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 408ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 410ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 410ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 411ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 413ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 414ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 415ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 416ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 418ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 419ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 420ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 427ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 429ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 431ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 432ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 436ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 438ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 439ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 440ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 441ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 442ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 446ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 446ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 449ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 463ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 467ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 468ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 469ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 472ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 474ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 479ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 484ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 485ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 488ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 490ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 490ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 493ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 496ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 496ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 496ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 497ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 498ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 499ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 503ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 505ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 506ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 508ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 510ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 515ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 516ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 518ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 520ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 520ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 521ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 521ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 523ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 524ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 527ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 636ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 637ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 637ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 638ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 639ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 639ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 640ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 640ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 640ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 640ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 640ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 641ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 640ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 640ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 640ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 639ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 640ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 640ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 641ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 641ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 642ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 642ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 643ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 642ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 643ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 644ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 647ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 651ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 652ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 653ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 653ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 653ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 653ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 655ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 655ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 656ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 656ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 659ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 660ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 661ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 663ms
+  Read-Request:
+    Movie: The Kid (1921)
+    Time: 667ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 668ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 669ms
+  Read-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 670ms

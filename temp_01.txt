@@ -1,0 +1,294 @@
+  Write-Request:
+    Movie: Many Adventures of Winnie the Pooh (1977)
+    Time: 3ms
+  Write-Request:
+    Movie: The Odd Couple (1968)
+    Time: 3ms
+  Write-Request:
+    Movie: Old Yeller (1957)
+    Time: 4ms
+  Write-Request:
+    Movie: Toy Story 2 (1999)
+    Time: 4ms
+  Write-Request:
+    Movie: On a Clear Day You Can See Forever (1970)
+    Time: 8ms
+  Write-Request:
+    Movie: Darby O'Gill and the Little People (1959)
+    Time: 8ms
+  Write-Request:
+    Movie: The Yearling (1946)
+    Time: 9ms
+  Write-Request:
+    Movie: My Darling Clementine (1946)
+    Time: 10ms
+  Write-Request:
+    Movie: Toy Story (1995)
+    Time: 10ms
+  Write-Request:
+    Movie: That's Entertainment (1973)
+    Time: 11ms
+  Write-Request:
+    Movie: Tom Thumb (1958)
+    Time: 11ms
+  Write-Request:
+    Movie: The 7th Voyage of Sinbad (1958)
+    Time: 12ms
+  Write-Request:
+    Movie: Mary Poppins (1964)
+    Time: 13ms
+  Write-Request:
+    Movie: Heidi (1937)
+    Time: 14ms
+  Write-Request:
+    Movie: Singin' in the Rain (1952)
+    Time: 16ms
+  Write-Request:
+    Movie: National Velvet (1944)
+    Time: 17ms
+  Write-Request:
+    Movie: Le samouraï (1967)
+    Time: 18ms
+  Write-Request:
+    Movie: Rear Window (1954)
+    Time: 19ms
+  Write-Request:
+    Movie: Henry V (1989)
+    Time: 19ms
+  Write-Request:
+    Movie: Citizen Kane (1941)
+    Time: 20ms
+  Write-Request:
+    Movie: The Adventures of Robin Hood (1938)
+    Time: 21ms
+  Write-Request:
+    Movie: Local Hero (1983)
+    Time: 21ms
+  Write-Request:
+    Movie: Shadow of a Doubt (1943)
+    Time: 22ms
+  Write-Request:
+    Movie: Holiday Inn (1942)
+    Time: 23ms
+  Write-Request:
+    Movie: Curse of the Demon (1958)
+    Time: 24ms
+  Write-Request:
+    Movie: How the Grinch Stole Christmas (1967)
+    Time: 25ms
+  Write-Request:
+    Movie: Whisky (2004)
+    Time: 26ms
+  Write-Request:
+    Movie: The Band Wagon (1953)
+    Time: 27ms
+  Write-Request:
+    Movie: Jane Eyre (1944)
+    Time: 28ms
+  Write-Request:
+    Movie: Kings Row (1942)
+    Time: 29ms
+  Write-Request:
+    Movie: Desk Set (1957)
+    Time: 30ms
+  Write-Request:
+    Movie: Summer Stock (1950)
+    Time: 32ms
+  Write-Request:
+    Movie: Valerie and Her Week of Wonders (1970)
+    Time: 32ms
+  Write-Request:
+    Movie: Black Narcissus (1947)
+    Time: 33ms
+  Write-Request:
+    Movie: King Of The Ants (2003)
+    Time: 33ms
+  Write-Request:
+    Movie: Fanaa (2006)
+    Time: 34ms
+  Write-Request:
+    Movie: Road to Utopia (1945)
+    Time: 34ms
+  Write-Request:
+    Movie: King Creole (1958)
+    Time: 34ms
+  Write-Request:
+    Movie: Såsom i en Spegel (Through A Glass Darkly) (1961)
+    Time: 34ms
+  Write-Request:
+    Movie: Stop Making Sense (1984)
+    Time: 34ms
+  Write-Request:
+    Movie: 36 quai des orfevres (2005)
+    Time: 35ms
+  Write-Request:
+    Movie: Street Fight (2005)
+    Time: 35ms
+  Write-Request:
+    Movie: Twist of Faith (2004)
+    Time: 35ms
+  Write-Request:
+    Movie: The Bridge (Die Brücke) (1959)
+    Time: 34ms
+  Write-Request:
+    Movie: A Star Is Born (1937)
+    Time: 31ms
+  Write-Request:
+    Movie: The Tale of Zatoichi Continues (Zoku Zatôichi monogatari) (1962)
+    Time: 31ms
+  Write-Request:
+    Movie: The Tale of Zatoichi (1962)
+    Time: 31ms
+  Write-Request:
+    Movie: Shoeshine (Sciuscià) (1947)
+    Time: 31ms
+  Write-Request:
+    Movie: Angels with Dirty Faces (1938)
+    Time: 31ms
+  Write-Request:
+    Movie: The Kid (1921)
+    Time: 32ms
+  Write-Request:
+    Movie: Partie de Campagne (A Day in the Country) (1936)
+    Time: 32ms
+  Write-Request:
+    Movie: All Quiet on the Western Front (1979)
+    Time: 32ms
+  Write-Request:
+    Movie: Fort Apache (1948)
+    Time: 32ms
+  Write-Request:
+    Movie: Kes (1969)
+    Time: 32ms
+  Write-Request:
+    Movie: Three Colors: Red (Trois couleurs: Rouge) (1994)
+    Time: 33ms
+  Write-Request:
+    Movie: Law of Desire (1987)
+    Time: 33ms
+  Write-Request:
+    Movie: Mad Love (1935)
+    Time: 33ms
+  Write-Request:
+    Movie: The Decline of Western Civilization (1981)
+    Time: 33ms
+  Write-Request:
+    Movie: Things to Do (2006)
+    Time: 34ms
+  Write-Request:
+    Movie: Sansho the Bailiff (Sanshô dayû) (1954)
+    Time: 34ms
+  Write-Request:
+    Movie: Lust for Life (1956)
+    Time: 34ms
+  Write-Request:
+    Movie: Compulsion (1959)
+    Time: 34ms
+  Write-Request:
+    Movie: Mind Game (2004)
+    Time: 34ms
+  Write-Request:
+    Movie: Angst Essen Seele auf (Ali: Fear Eats the Soul) (1974)
+    Time: 35ms
+  Write-Request:
+    Movie: The Endless Summer (1966)
+    Time: 35ms
+  Write-Request:
+    Movie: Bluebeard (1944)
+    Time: 35ms
+  Write-Request:
+    Movie: David Holzman's Diary (1967)
+    Time: 35ms
+  Write-Request:
+    Movie: The Big Day (Jour De Fete) (1952)
+    Time: 36ms
+  Write-Request:
+    Movie: The Trials of Darryl Hunt (2007)
+    Time: 36ms
+  Write-Request:
+    Movie: San Francisco (1936)
+    Time: 36ms
+  Write-Request:
+    Movie: Letter From an Unknown Woman (1948)
+    Time: 36ms
+  Write-Request:
+    Movie: Chan Is Missing (1982)
+    Time: 36ms
+  Write-Request:
+    Movie: Borderland (2007)
+    Time: 36ms
+  Write-Request:
+    Movie: Insiang (1976)
+    Time: 36ms
+  Write-Request:
+    Movie: The Phantom Carriage (1921)
+    Time: 37ms
+  Write-Request:
+    Movie: Africa: The Serengeti (1994)
+    Time: 37ms
+  Write-Request:
+    Movie: Wichita (1955)
+    Time: 37ms
+  Write-Request:
+    Movie: Here Comes Mr. Jordan (1941)
+    Time: 36ms
+  Write-Request:
+    Movie: After the Thin Man (1936)
+    Time: 36ms
+  Write-Request:
+    Movie: Ghosts of Abu Ghraib (2007)
+    Time: 36ms
+  Write-Request:
+    Movie: Harper (The Moving Target) (1966)
+    Time: 36ms
+  Write-Request:
+    Movie: Captain Horatio Hornblower (1951)
+    Time: 37ms
+  Write-Request:
+    Movie: Four Sheets to the Wind (2007)
+    Time: 37ms
+  Write-Request:
+    Movie: The Garden of the Finzi-Continis (Il Giardino dei Finzi-Contini) (1971)
+    Time: 37ms
+  Write-Request:
+    Movie: Longford (2007)
+    Time: 37ms
+  Write-Request:
+    Movie: White Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)
+    Time: 37ms
+  Write-Request:
+    Movie: Grand Prix (1966)
+    Time: 38ms
+  Write-Request:
+    Movie: The Color of Friendship (2000)
+    Time: 38ms
+  Write-Request:
+    Movie: Investigation of a Citizen Above Suspicion (1970)
+    Time: 38ms
+  Write-Request:
+    Movie: Khakee (The Uniform) (2004)
+    Time: 38ms
+  Write-Request:
+    Movie: Three Comrades (1938)
+    Time: 38ms
+  Write-Request:
+    Movie: Vengeance Is Mine (1979)
+    Time: 39ms
+  Write-Request:
+    Movie: Speedy (1928)
+    Time: 39ms
+  Write-Request:
+    Movie: Death of a Cyclist (Muerte de un ciclista) (1958)
+    Time: 39ms
+  Write-Request:
+    Movie: The Gang's All Here (1943)
+    Time: 39ms
+  Write-Request:
+    Movie: The Disenchanted (1990)
+    Time: 40ms
+  Write-Request:
+    Movie: Girlfriends (1978)
+    Time: 40ms
+  Write-Request:
+    Movie: Mischief Night (2014)
+    Time: 40ms
